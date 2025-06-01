@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "title": "Ticket Daily Checker",
+      "createdAt": "2025-05-27 12:45:00",
+      "status": "active",
+      "author": "Ivan",
+      "description": "Скрипт для мониторинга ежедневных билетов",
+      "version": "1.2.0"
+    },
+    {
+      "title": "Discord Notifier Bot",
+      "createdAt": "2025-05-20 09:30:00",
+      "status": "archived",
+      "author": "Ivan",
+      "description": "Бот для отправки уведомлений в Discord-канал",
+      "version": "0.9.3"
+    },
+    {
+      "title": "Crypto Price Tracker",
+      "createdAt": "2025-04-18 14:10:00",
+      "status": "active",
+      "author": "Georgiy",
+      "description": "Мониторинг курса криптовалют в реальном времени",
+      "version": "3.1.0"
+    },
+    {
+      "title": "File Uploader API",
+      "views": 321,
+      "createdAt": "2025-05-01 11:00:00",
+      "status": "beta",
+      "author": "Vanadiy",
+      "description": "REST API для загрузки файлов и хранения на сервере",
+      "version": "1.0.0-beta"
+    },
+    {
+      "title": "Steam Game Watcher",
+      "createdAt": "2025-03-15 16:45:00",
+      "status": "active",
+      "author": "Georgiy",
+      "description": "Трекер скидок и обновлений в Steam-магазине",
+      "version": "2.5.4"
+    }
+  ]
+}
