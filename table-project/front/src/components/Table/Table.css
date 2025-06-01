@@ -1,0 +1,208 @@
+.tableProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  gap: 25px;
+}
+
+.table {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: auto;
+  max-width: 90%;
+  padding-bottom: none;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.tableHead {
+  max-width: 1600px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 22px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.tableBody {
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.head {
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.tableRow {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.tableCell {
+  height: 75px;
+  overflow: hidden;
+  padding: 15px;
+  min-width: 150px;
+  max-width: 150px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  align-items: start;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.description {
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  transition: .3s;
+}
+
+.description:hover {
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+
+.tableProducts h1 {
+  font-size: 26px;
+  margin: 10px;
+}
+
+.modal__container {
+  background: white;
+  position: absolute;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+
+.createModal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+  width: 600px;
+  max-height: 900px;
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.createModal__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 3px;
+}
+
+.oneColumn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.oneColumn__fieldWrapper {
+  min-width: 200px;
+  max-width: 200px;
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
+  background: rgb(124, 189, 164);
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.oneColumn__fieldWrapper:hover {
+  background: rgb(214, 68, 68);
+}
+
+.createModal__remainFields,
+.createModal__addField,
+.newField,
+.createModal__submitForm {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.createModal__remainFields {
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+  background: rgb(124, 189, 164);
+}
+
+.createModal__addField {
+  border: none;
+  line-height: 18.5px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.newFieldWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 5px;
+  gap: 15px;
+}
+
+.newField {
+  border: none;
+  width: 200px;
+  height: 37px;
+  background: rgb(124, 189, 164);
+}
+
+.createModal__submitForm {
+  background: rgb(95, 190, 87);
+  border: none;
+  display: flex;
+  position: absolute;
+  bottom: 75px;
+  right: 25px;
+  cursor: pointer;
+}
+
+
+.createModal__submitForm:hover {
+  background: rgb(77, 177, 68);
+}
+
+.createModal__headArea {
+  overflow-y: auto;
+}

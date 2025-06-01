@@ -1,0 +1,19 @@
+.iconWrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.iconWrapper:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.iconWrapper:active {
+   background: rgba(0, 0, 0, 0.3);
+}
