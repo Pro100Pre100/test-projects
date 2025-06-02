@@ -116,6 +116,10 @@ export default function CreateModal({ open, handleClose, alertHandleOpen, allHea
   }
 
   const sendToServer = async (event: MouseEvent<HTMLButtonElement>) => {
+    if (isLoadingFetch) {
+      return
+    }
+    
     const emptyObj = Object.keys(form).filter((key) => form[key].length === 0);
     console.log(emptyObj);
     event.preventDefault();
