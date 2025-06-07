@@ -11,13 +11,13 @@ Back: Простой json-server
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Pro100Pre100/-testTusk.git
+   git clone https://github.com/Pro100Pre100/test-projects/table-project.git
    
-3. Перейдите в папку client, установите зависимости и запустите фронтенд:
+3. Перейдите в папку front, установите зависимости и запустите фронтенд:
    ```bash
    npm install
    npm run dev
    
-5. Перейдите в папку server и запустите json-server:
+5. Перейдите в папку back и запустите json-server:
  ```bash
-  npx json-server seminars.json
+  npx json-server db.json
