@@ -11,7 +11,7 @@ Back: Простой json-server
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Pro100Pre100/test-projects/table-project.git
+   git clone https://github.com/Pro100Pre100/test-projects.git
    
 3. Перейдите в папку front, установите зависимости и запустите фронтенд:
    ```bash
